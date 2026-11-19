@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
+  <title id="title">B. Charan Kumar Reddy: SWE / SDE, AI and LLM infrastructure, data engineering</title>
+  <desc id="desc">General Motors intern, B.Tech 2027 at SRMIST, based in Bengaluru, India. Open to SWE, AI/ML and data roles.</desc>
+  <defs>
+    <clipPath id="card">
+      <rect x="0.5" y="0.5" width="1279" height="319" rx="14"/>
+    </clipPath>
+    <pattern id="grid-minor" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0.5H0.5V32" fill="none" stroke="#38bdf8" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <pattern id="grid-major" width="128" height="128" patternUnits="userSpaceOnUse">
+      <path d="M128 0.5H0.5V128" fill="none" stroke="#38bdf8" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.16" cy="0.08" r="0.62">
+      <stop offset="0" stop-color="#2563eb" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="14" fill="#060913"/>
+  <g clip-path="url(#card)">
+    <rect width="1280" height="320" fill="url(#grid-minor)"/>
+    <rect width="1280" height="320" fill="url(#grid-major)"/>
+    <rect width="1280" height="320" fill="url(#glow)"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="319" rx="14" fill="none" stroke="url(#edge)" stroke-width="1"/>
+
+  <g fill="none" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.25">
+    <path d="M16 32V16H32"/>
+    <path d="M1248 16H1264V32"/>
+    <path d="M16 288V304H32"/>
+    <path d="M1248 304H1264V288"/>
+  </g>
+
+  <text x="64" y="72" fill="#38bdf8" font-family="'JetBrains Mono', 'SFMono-Regular', 'Cascadia Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="13" letter-spacing="2.6">ENGINEERING PROFILE</text>
+
+  <text x="62" y="138" fill="#f8fafc" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="56" font-weight="700" letter-spacing="2.5">B. CHARAN KUMAR REDDY</text>
+
+  <rect x="64" y="158" width="56" height="3" rx="1.5" fill="url(#edge)"/>
+
+  <text x="64" y="202" xml:space="preserve" fill="#7dd3fc" font-family="Inter, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="3">SWE / SDE<tspan fill="#3b82f6">  •  </tspan>AI &amp; LLM INFRASTRUCTURE<tspan fill="#3b82f6">  •  </tspan>DATA ENGINEERING</text>
+
+  <g font-family="'JetBrains Mono', 'SFMono-Regular', 'Cascadia Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" fill="#e2e8f0" text-anchor="middle">
+    <rect x="64" y="234" width="240" height="40" rx="20" fill="#0b1220" stroke="#38bdf8" stroke-opacity="0.35"/>
+    <circle cx="83" cy="254" r="3.5" fill="#38bdf8"/>
+    <text x="191" y="259">General Motors Intern</text>
+
+    <rect x="316" y="234" width="222" height="40" rx="20" fill="#0b1220" stroke="#38bdf8" stroke-opacity="0.35"/>
+    <circle cx="335" cy="254" r="3.5" fill="#38bdf8"/>
+    <text x="434" y="259">B.Tech ’27 @ SRMIST</text>
+
+    <rect x="550" y="234" width="194" height="40" rx="20" fill="#0b1220" stroke="#38bdf8" stroke-opacity="0.35"/>
+    <circle cx="569" cy="254" r="3.5" fill="#38bdf8"/>
+    <text x="654" y="259">Bengaluru, India</text>
+
+    <rect x="756" y="234" width="332" height="40" rx="20" fill="#0b1220" stroke="#34d399" stroke-opacity="0.45"/>
+    <circle cx="775" cy="254" r="7" fill="#34d399" fill-opacity="0.18"/>
+    <circle cx="775" cy="254" r="3.5" fill="#34d399"/>
+    <text x="929" y="259">Open to SWE, AI/ML &amp; Data Roles</text>
+  </g>
+
+  <g transform="translate(-22 -8)">
+    <path d="M1132 64L1190.97 106.84L1168.44 176.16L1095.56 176.16L1073.03 106.84Z" fill="none" stroke="#38bdf8" stroke-opacity="0.16" stroke-width="1"/>
+    <g stroke-width="1.25">
+      <path d="M1132 64L1190.97 106.84M1132 64L1073.03 106.84" stroke="#38bdf8" stroke-opacity="0.55"/>
+      <path d="M1132 64L1168.44 176.16M1132 64L1095.56 176.16" stroke="#64748b" stroke-opacity="0.6" stroke-dasharray="3 4"/>
+    </g>
+    <circle cx="1132" cy="64" r="15" fill="#38bdf8" fill-opacity="0.12"/>
+    <circle cx="1132" cy="64" r="8" fill="#38bdf8"/>
+    <circle cx="1190.97" cy="106.84" r="6.5" fill="#060913" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="1073.03" cy="106.84" r="6.5" fill="#060913" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="1168.44" cy="176.16" r="6.5" fill="#060913" stroke="#475569" stroke-width="1.5" stroke-dasharray="2 2"/>
+    <circle cx="1095.56" cy="176.16" r="6.5" fill="#060913" stroke="#475569" stroke-width="1.5" stroke-dasharray="2 2"/>
+    <text x="1132" y="214" fill="#7286a0" font-family="'JetBrains Mono', 'SFMono-Regular', 'Cascadia Mono', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12.5" letter-spacing="1.4" text-anchor="middle">RAFT · 5 NODES · QUORUM 3</text>
+  </g>
+</svg>

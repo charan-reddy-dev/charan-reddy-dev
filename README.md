@@ -1,8 +1,39 @@
-### Hi, I'm B. Charan Kumar Reddy — Distributed Systems & AI Infrastructure Engineer
+<p align="center">
+  <img src="assets/header-banner.svg" width="100%" alt="B. Charan Kumar Reddy: SWE / SDE, AI &amp; LLM infrastructure, data engineering. General Motors intern, B.Tech 2027 at SRMIST, Bengaluru, India. Open to SWE, AI/ML and data roles.">
+</p>
 
-Building low-latency LLM inference systems, fault-tolerant distributed backends, and high-throughput data pipelines in **Bengaluru, India**. Currently an **AI & Automation Engineering Intern at General Motors** (B.Tech CSE '27).
+<p align="center">
+  <a href="https://charan-reddy-dev.github.io/portfolio/"><b>Portfolio</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/b-charan-kumar-reddy/"><b>LinkedIn</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://leetcode.com/u/charan_red"><b>LeetCode</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:charan.workmaill@gmail.com"><b>charan.workmaill@gmail.com</b></a>
+</p>
 
-- **AI & LLM Infrastructure:** Cut LLM inference latency by **36% (2.5s → 1.6s)** via INT8 quantization & prompt caching; built a **500K+ embedding** FAISS/Pinecone RAG pipeline at **92% retrieval recall**.
-- **Multi-Agent Systems:** Architected a Planner-Executor-Critic (PEVR) multi-agent DAG engine achieving **95%+ verification accuracy**.
-- **Distributed Systems:** Built **OctoScale**, a Redis ZSET/Lua rate-limited URL engine load-tested at **10,000+ RPS**, alongside Raft consensus and gRPC services.
-- **Portfolio:** [charan-reddy-dev.github.io/portfolio](https://charan-reddy-dev.github.io/portfolio/) | **LinkedIn:** [b-charan-kumar-reddy](https://www.linkedin.com/in/b-charan-kumar-reddy/)
+Final-year B.Tech student (graduating May 2027) and **AI & Automation Engineering Intern at General Motors Technical Center India**, Bengaluru.
+I build low-latency LLM inference systems, fault-tolerant distributed backends and streaming CDC lakehouses.
+
+### Selected production & benchmark highlights
+
+| Work | Outcome | Evidence |
+|---|---|---|
+| **General Motors**<br><sub>AI & Automation</sub> | Automated Python surface-quality validation for CAD die faces: engineering workflow time cut from **18 hours to 5 minutes per panel**, saving **~47 hours/month** across 7 engineers. | Internship outcome; internal tool, not public |
+| **LLM inference & RAG**<br><sub>General Motors</sub> | Inference latency cut **36% (2.5 s → 1.6 s)** with INT8 quantization and prompt caching; semantic search over **500K+ document embeddings** (FAISS, Pinecone) at **92% retrieval accuracy**. | Internship outcome; internal, not public |
+| **[LakeFlow](https://github.com/charan-reddy-dev/lakeflow)**<br><sub>Streaming CDC lakehouse</sub> | Debezium → Kafka → Spark Structured Streaming (**5 s micro-batches**) → Apache Iceberg, with LSN-guarded idempotent `MERGE` deduplication. A fault-injection test kills Spark between the Iceberg commit and the offset commit; the replay writes **zero duplicate rows**. | [`test_data_plane.py`](https://github.com/charan-reddy-dev/lakeflow/blob/main/tests/integration/test_data_plane.py), runs in CI |
+| **[FeatureHub + DataGuard](https://github.com/charan-reddy-dev/featurehub-dataguard)**<br><sub>ML feature store & data quality</sub> | **25 versioned YAML data contracts** and Great Expectations gates across **26 Airflow-orchestrated pipeline definitions**; Redis feature lookups at **1.62 ms p99**; **~355k rows/s** validation throughput. | [`final_results.json`](https://github.com/charan-reddy-dev/featurehub-dataguard/blob/main/featurehub/benchmarks/final_results.json), [`final_quality_results.json`](https://github.com/charan-reddy-dev/featurehub-dataguard/blob/main/dataguard/benchmarks/final_quality_results.json) |
+| **[RaftKV](https://github.com/charan-reddy-dev/raftkv)**<br><sub>Distributed consensus</sub> | 5-node Raft key-value store (asyncio, gRPC) with leader election and a replicated state-machine log; keeps committing writes with **2 of 5 nodes down**. | [`test_fault_injection.py`](https://github.com/charan-reddy-dev/raftkv/blob/main/tests/test_fault_injection.py), runs in CI |
+
+<sub>Repository figures link to the committed benchmark file or CI test behind them and were measured on one machine with synthetic data, as each repository's README states. General Motors figures are internship outcomes from internal tools.</sub>
+
+### Core engineering matrix
+
+| SWE & distributed systems | AI, agents & machine learning | Data engineering & cloud |
+|---|---|---|
+| Python · C++ · Java · TypeScript | Multi-agent DAGs (PEVR) · RAG pipelines | SQL · PySpark · Apache Spark (Streaming) |
+| Raft consensus · gRPC · Redis (ZSETs / Lua) | INT8 quantization · prompt caching | Apache Kafka · Apache Iceberg · Trino · Debezium CDC |
+| REST APIs · FastAPI | FAISS · Pinecone | Airflow · Great Expectations · OpenLineage |
+| Docker · Linux · GitHub Actions CI/CD | PyTorch · scikit-learn · XGBoost · SHAP | AWS · Microsoft Azure · GCP |
+
+### Certifications
+
+| Cloud | Data & AI |
+|---|---|
+| AWS Certified Developer – Associate | Databricks Certified Data Engineer Associate |
+| Microsoft Azure Developer Associate (AZ-204) | IBM Data Engineering Professional Certificate |
+| Google Cloud Associate Cloud Engineer | IIT Madras Data Science Certification |
