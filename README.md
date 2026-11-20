@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://charan-portfolio-nine-xi.vercel.app/"><b>Portfolio</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/b-charan-kumar-reddy/"><b>LinkedIn</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://leetcode.com/u/charan_red"><b>LeetCode</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:charan.workmaill@gmail.com"><b>charan.workmaill@gmail.com</b></a>
+  <a href="https://bcharan.vercel.app/"><b>Portfolio</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://www.linkedin.com/in/b-charan-kumar-reddy/"><b>LinkedIn</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://leetcode.com/u/charan_red"><b>LeetCode</b></a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="mailto:charan.workmaill@gmail.com"><b>charan.workmaill@gmail.com</b></a>
 </p>
 
 Final-year B.Tech student (graduating May 2027) and **Student Intern (AI/ML & Data Automation) at General Motors Technical Center India**, Bengaluru.
